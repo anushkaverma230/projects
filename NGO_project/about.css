@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+overflow-x: hidden;
+}
+h2{
+    overflow: hidden;
+}
+h4{
+    overflow: hidden;
+}
+h5{
+    overflow: hidden;
+}
+nav{
+    background-color: #99627A;
+    
+}
+.nav-item a:hover{
+    background-color: #C88EA7;
+}
+.swip{
+    /* height: 500px; */
+    width: 100%;
+    overflow-y: hidden;
+    max-height: 600px;
+}
+.midBox{
+    background-color:#EEEEEE;
+    position: relative;
+    margin-top: -20px;
+    
+}
+.midBox h2{
+    font-size: 50px;
+}
+.p{
+    text-align: left;
+    padding-left: 5px;
+}
+.midBox p{
+   
+   background-color: #99627A;
+   font-size: 20px;
+}
+.list{
+    text-align: center;
+    list-style-type: none;
+    background-color: #EDDBC7;
+    padding:6px 13px 6px 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:18px;
+    
+}
+.list a{
+    text-decoration: none;
+    color:black;
+    
+}
+ul li{
+    padding:6px;
+    list-style-type: none;
+}
+.list ul li a{
+    text-decoration: none;
+    color:black;
+}
+.story{
+    text-align: center;
+}
+.story img{
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.vision img{
+    height: 200px;
+    width: 200px;
+}
+.cont1 {
+    width:100%;
+}
+.box1{
+    display: flex;
+}
+
+.flexR{
+    padding-top: 20px;
+width:100%;
+text-align: center;
+}
+.button a{    
+    text-decoration: none;
+    color:black;
+}
+button a:hover{
+    color:white
+}
+.two{
+    display: flex;
+}
+
+.show_content{
+    opacity: 1;
+    transform: translateX(0);
+}
+.workInfo {
+    padding-top: 30px;
+    margin-top: 50px;
+    background-color:#F9DBBB;
+}
+
+footer{
+    background-color:#C88EA7;
+    position: absolute;
+}
+.footsec{
+    padding:20px
+}
+.moto{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.footsec hr{
+    color:white;
+    border:none;
+    height:6px;
+    background-color:white;
+}
+.footsec h3{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.footsec li{
+    list-style-type: none;
+}
+.footsec a{
+   text-decoration: none;
+   color:black;
+}
+.footsec a:hover{
+    color:white;
+}
+.fonts{
+    font-size: 140%;
+}
+footer p{
+    text-align: left;
+}

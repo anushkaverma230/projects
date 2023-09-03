@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+h4{
+    overflow: hidden;
+}
+
+.clear{
+    clear: both;
+}
+ul li{
+    padding:6px;
+    list-style-type: none;
+}
+.navbar{
+    background-color: #99627A;
+}
+.swip{
+    /* height: 500px; */
+    width: 100%;
+    overflow-y: hidden;
+    max-height: 500px;
+}
+.midBox{
+    background-color: #EEEEEE;
+    position: relative;
+    margin-top: -20px;
+    
+}
+.midBox h2{
+     font-size: 50px;
+     overflow: hidden;
+}
+.midBox p{
+    color:white;
+    background-color: #99627A;
+    font-size: 20px;
+}
+.memberFont a{
+    font-size: 150%;
+} 
+.memberFont a:hover{
+   background-color: #99627A;
+}
+
+footer{
+    background-color:#99627A;
+    position: absolute;
+}
+.footsec{
+    padding:20px
+}
+.moto{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.footsec hr{
+    color:white;
+    border:none;
+    height:6px;
+    background-color:white;
+}
+.footsec h3{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.footsec li{
+    list-style-type: none;
+}
+.footsec a{
+   text-decoration: none;
+   color:black;
+}
+.footsec a:hover{
+    color:white;
+}
+.fonts{
+    font-size: 140%;
+}

@@ -1,0 +1,158 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    background-color: #99627A;
+    
+}
+.swip{
+    /* height: 500px; */
+    width: 100%;
+    overflow-y: hidden;
+    max-height: 600px;
+}
+.midBox{
+    background-color: #EEEEEE;
+    position: relative;
+    margin-top: -20px;
+    
+}
+.midBox h2{
+     font-size: 50px;
+}
+.midBox p{
+    color:white;
+    background-color: #99627A;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.backimg{
+    color:white;
+    background-image: url(https://images.unsplash.com/photo-1496635594438-0cabe903998e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    
+}
+
+.backgroundimg{
+    position: absolute;
+    left: 0px;
+    top:auto;
+    z-index: -1;
+    width: 100%;
+    height: 80%;
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+    filter: blur(5px);   
+}
+/* .system{
+    background-color: #99627A;
+} */
+.textbox{
+    padding-top:5%;
+    background-color: aliceblue;
+    opacity: 72%;
+}
+.textbox img{
+    padding-bottom:12px; 
+}
+.aim{
+    margin-top:50px;
+}
+.aim .aimOne{
+    margin-top: 50px;
+    font-weight:500;
+    font-size:20px;
+}
+.aim .aimT{
+    font-weight:500;
+    font-size:100%;
+}
+
+form input{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form textarea{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+form select{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.icons i{
+    font-size:400%;
+    margin-right:5%;
+    /* border-radius:100%; */
+}
+.icons a{
+    color:black;
+    
+}
+.sectionInfo{
+    margin-top:3%;
+    background-color:#9DB2BF;
+}
+.sectionInfo p{
+     font-size: 200%;
+     
+}
+
+.teleIcon i{
+font-size: 100%;
+}
+
+footer{
+    background-color:#C88EA7;
+    position: absolute;
+}
+.footsec{
+    padding:20px
+}
+.moto{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.footsec hr{
+    color:white;
+    border:none;
+    height:6px;
+    background-color:white;
+}
+.footsec h3{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.footsec li{
+    list-style-type: none;
+}
+.footsec a{
+   text-decoration: none;
+   color:black;
+}
+.footsec a:hover{
+    color:white;
+}
+.fonts{
+    font-size: 140%;
+}
+footer p{
+    text-align: left;
+}

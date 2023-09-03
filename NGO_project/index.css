@@ -1,0 +1,134 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   overflow-x: hidden;
+}
+h3{
+    overflow-y: hidden;
+}
+h4{
+    overflow-y: hidden;
+
+}
+h5{
+    overflow-y: hidden;
+
+}
+.swip{
+    /* height: 500px; */
+    width: 100%;
+    /* overflow-y: hidden;
+    max-height: 500px; */
+}
+.navbar{
+    background-color: #99627A;
+
+}
+
+.nav-item a:hover{
+    background-color: #C88EA7;
+}
+.organiz{
+    color:#99627A;
+    /* font-size: 200%; */
+    
+}
+
+.jsp{
+    padding-top:10%;
+    padding-bottom: 15%;
+}
+.Num{
+    font-stretch:condensed;
+   font-size: 60px;
+   font-weight: 500;
+   color:#C88EA7;
+}
+.lacLet{
+    font-size: 30px;
+    color:#C88EA7;
+}
+.info{
+    text-align: center;
+}
+
+.textAbout{
+    color:#99627A;
+}
+.for-more{
+    background-color:rgb(130, 129, 129);
+    overflow-y: hidden;
+
+}
+.text{
+    color: aliceblue;
+    padding: 12px;
+}
+.text p{
+    font-size: 115%;
+}
+
+
+.for-more a{
+    color:white;
+    border-bottom: bisque;
+}
+.for-more a:hover{
+    background-color:skyblue;
+    color:black;
+}
+.for-more hr{
+    color: white;
+}
+
+.clear{
+    clear: both;
+}
+.partners{
+text-align: center;
+}
+footer{
+    background-color:#C88EA7;
+    position: absolute;
+}
+.footsec{
+    padding:20px
+}
+.moto{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+}
+.footsec hr{
+    color:white;
+    border:none;
+    height:6px;
+    background-color:white;
+}
+.footsec h3{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+.footsec li{
+    list-style-type: none;
+}
+.footsec a{
+   text-decoration: none;
+   color:black;
+}
+.footsec a:hover{
+    color:white;
+}
+.fonts{
+    font-size: 140%;
+}
+
+@media(min-width:360px) and (max-width:992px){
+    .text{
+        font-size: 15px;
+    }
+   .nav-item a:hover{
+          background-color: #C88EA7;
+    }
+    
+}
