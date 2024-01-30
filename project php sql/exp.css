@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+}
+   
+
+.body{
+    margin:6% 30% 0% 30%;
+    padding:2%;
+    border-style: solid;
+   border-radius: 5%;
+   border-color: antiquewhite;
+   box-shadow: 4px 4px rgb(200, 200, 206);
+   background-color:rgb(205, 219, 219);
+}
+.div{
+    margin-bottom:-10%;
+    margin-right: -12%;
+
+}
+.demo input{
+    width:150%;
+}
+.nav-link a{
+    color:black;
+
+}
+
+li select{
+    border-color:rgb(205, 219, 219);
+    background-color:rgb(205, 219, 219);
+    margin-top: 3px;
+    padding: 2px 6px 2px 6px;
+    
+}
+nav{
+    justify-content: space-around;
+}
+
+select option{
+    padding:2px;
+}
+.demo img{
+    height:100%;
+     width :100%;
+     margin-left:40%;
+}
+.demo{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media only screen and (min-width: 300px) {
+    .nav-link{
+        height: 20px;
+    }
+    .nav-brand img{
+        display: none;
+        height:19px;
+    }
+    .body{
+        margin:6% 5% 0% 10%;
+        padding:1%;
+        border-style: solid;
+       border-radius: 5%;
+       border-color: antiquewhite;
+       box-shadow: 4px 4px rgb(200, 200, 206);
+       background-color:rgb(205, 219, 219);
+    }
+    .demo img{
+        height:60%;
+     width :70%;
+     margin-left:80px;
+    }
+}
