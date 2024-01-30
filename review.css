@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  nav span{
+      position: relative;
+      height:40%;
+  }
+  nav{
+      border-right: 0;
+      border-left: 0;
+      border-top: 0;
+      border-bottom-color: black;
+      border-style:double; 
+  }
+ 
+  nav .row{
+     position:absolute;
+     width:90%;
+     top:1%;
+  }
+  nav a{
+      text-decoration-line: none;
+      color:white;
+      text-align: end;
+  }
+  #offcanvasNavbar{
+      background-color:transparent;
+  }
+  .navbar-nav li a{
+      color:white;
+  }
