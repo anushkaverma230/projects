@@ -1,0 +1,420 @@
+*{
+  margin:0%;
+  padding:0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+nav img{
+    width:5%;
+    height:5%
+}
+button{
+    width:auto;
+    height: auto;
+    padding:5px;
+}
+.pencile{
+    width:20%;
+    height:auto;
+}
+nav{
+    
+    display:flex;
+    justify-content: space-between;
+    padding:1%;
+    top:0px;
+    background-color: antiquewhite;
+}
+
+.head{
+    display:flex;
+    margin-left: 15%;
+    padding-right: 14px;
+    font-size: large;  
+    position: relative;
+}
+nav li {
+    list-style-type: none;
+    padding:10px;
+}
+li a{
+    color:black;
+    text-decoration: none;
+}
+button{
+    border-style: none;
+    position: sticky;
+    margin-right:4%;
+    text-decoration: none;
+    font-size:30px; 
+}
+button:hover{
+    color:black;
+}
+.heading{
+    margin-top:3%;
+    text-align: center;
+    font-size: larger;
+    position: relative;
+}
+.heading .flex p{
+    overflow-y: hidden;
+}
+.darkmode--activated h1, .darkmode--activated li {
+    color:white;
+}
+.flex{
+    display: flex;
+    margin-left:32%
+}
+.h{
+    font-family:cursive;
+    font-size: 80px;
+    font-weight:20%;
+}
+.btn{
+    margin-top:10%;
+}
+.ani{
+    position: relative;
+    font-size: 80px;
+    color:#FAF7F0;
+    /* -webkit-text-stroke: 0.3vw #A5F1E9 ; */
+}
+.ani::before{
+    content:attr(data-text);
+    position:absolute;
+    top:0%;
+    width:100%;
+    height:100%;
+    color: purple;
+    -webkit-text-stroke: 0vw black;
+    border-right:4px solid purple;
+    overflow: hidden;
+    animation: animate 3s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%{
+        width:0
+    }
+    70%,90%{
+        width:100%;
+    }
+}
+.img{
+    margin-top:5%;
+    display: flex;
+    float:right;
+    
+}
+.section{
+     padding:1%;
+}
+.section1{
+    border-style: dotted;
+    border-radius: 8%;
+    overflow: hidden;
+}
+
+.ink{
+    font-size:10vh;
+    top:-80%;
+    float: right;
+    isolation: isolate;
+}
+.pingu{
+    font-size:10vh;
+    top:-20%;
+    isolation: isolate;
+}
+
+.img1{
+    width:100%;
+    height: 100%;
+}
+
+.img2{
+
+    width:40%;
+    height:40%;
+    
+}
+h2{
+    text-align:center;
+    color:violet
+}
+.con{
+    display:flex;
+    justify-content: space-between;
+    border-style:double;
+   border-radius: 12px;
+    padding:2%;
+    background-color: white;
+    max-width: fit-content;
+}
+.con h4{
+    overflow-y: hidden;
+
+}
+ i{ 
+    font-size:300%;  
+}
+.reviewbox{
+    isolation: isolate;
+}
+.review {
+    margin: 12px;
+    padding:15px;
+}
+.body{
+   align-items: center;
+}
+
+.explore{
+    margin-left: 5%;
+    display:flex;
+    justify-content: space-between;
+}
+.text1{
+    
+    padding-top:15%;
+    margin-top:8%;
+    font-size: 5vh;
+    text-align: center;
+
+}
+.text1 h3{
+    overflow-y: hidden;
+    color:peru;
+}
+.text1 p{
+    margin-top:3px;
+    font-size: larger;
+}
+.a{
+    text-decoration: none;
+    color:cadetblue;
+}
+.sketch img{
+    height:70%;
+     width:30%;
+     margin-left:10px;
+     border-radius: 5px;
+     box-shadow: 8px 12px 1px 2px #252525;
+}
+.sketch{
+    display: flex;
+    justify-content: space-around;
+}
+.sketchp{
+    margin-top:20%;
+
+}
+.partner{
+    margin-top:50;
+}
+
+.partner p{
+    font-size: 12px;
+}
+.dark{
+   background-color: #252525;
+   color:white; 
+   isolation: isolate;
+}
+.pic{
+    display: flex;
+    font-size: larger;
+}
+.pic img{
+    padding:1%;
+    
+}
+.tex{
+    margin-top:8%;
+   margin-left:6%;
+
+}
+center p{
+    margin-top:-20px;
+    font-size:small;
+}
+.floating p{
+    width:200px;
+    animation-name:text;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    background-color:burlywood;
+    isolation: isolate;
+}
+.floating h6{
+    width:200px;
+    animation-name:text;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    background-color:burlywood;
+    isolation: isolate;
+
+}
+.floating .one{
+    animation-timing-function: ease;
+}
+.two{
+    animation-timing-function: linear;
+}
+.three{
+    animation-timing-function: ease-in;
+}
+.four{
+    animation-timing-function: ease-out;
+}
+.five{
+    animation-timing-function: ease-in-out;
+}
+@keyframes text {
+    from{
+        margin-left:80%;
+    }
+    to{
+        margin-left:0%;
+    }
+}
+.review{
+    margin-top:-12%;
+    margin:-12px;
+}
+
+.foot{
+    display:flex;
+    justify-content: space-around;
+    margin:3%;  
+}
+footer h6{
+    overflow-y: hidden;
+}
+.copyright{
+    text-align: center;
+}
+@media(max-width:800px){
+    .head button{
+        margin:1px;
+    }
+   .heading h1{
+    margin-top:2px;
+        font-size:25px;
+    }
+    .heading p{
+        font-size:25px;
+        
+    }
+    .heading .ani{
+        margin-left:20px;
+    }
+
+   .letter{
+        border-style:dashed;
+        height:90%;
+        width:140%;
+        border-radius:7%;
+        margin-left: -20px;
+        
+    
+   }
+   .letter .img2{
+    width:100;
+    height:100;
+     border-radius:15%;
+     
+   }
+   .letter .rotate{
+    top:2%;
+      font-size:1px;
+   }
+   .letter p{
+    font-size:20px;
+    float: top;
+    top:30px;
+   }
+   .letter .ink{
+    float: right;
+    top:30px;
+   }
+   .sec .img1{
+    margin-left:40%;
+    height:100%;
+    width:80%;
+   }
+   .img{
+    align-items:center;
+
+   }
+   .img img{
+    
+    font-size:20%;
+    width:10%;
+   }
+   .img button{
+    padding:2px;
+    margin-left:20vh;
+    font-size:10px;
+    height:35px;
+    width:70px;
+   }
+
+   img{height:15%;
+    width:25%;
+
+   }
+   nav button{
+    font-size:50%;
+   }
+   .con h4{
+    margin-top:10px;
+    font-size:8px;
+    margin-right: 2px;
+   }
+   .icon i{
+    font-size:10px;
+   }
+   .text1 h3 {
+    font-size:25px;
+   }
+   .text1 p{
+    font-size:15px;
+   }
+   .text1 a{
+    font-size:15px;
+   }
+   .text2 img{
+    margin-right:40px;
+    width:80px;
+    height:120px;
+   }
+   .tex{
+    font-size:10px;
+   }
+   .row img{
+    margin-top:100;
+    
+    }
+   
+   footer{
+    font-size:10px;
+    display: flex;
+    justify-content: space-around;
+   }
+   .foot h6 i{
+    
+    font-size:15px;
+   }
+   
+
+}
+
+.review_sect h3{
+overflow-y: hidden;
+}
+.review_sect h4{
+    overflow-y: hidden;
+    }

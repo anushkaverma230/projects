@@ -1,0 +1,30 @@
+**{
+    margin:0%;
+    padding:0%;
+      box-sizing: border-box;   
+  }
+  img{
+      max-width: 670px;
+  }
+  button{
+      width:auto;
+      height: auto;
+      padding:5px;
+  }
+  nav{
+      
+      display:flex;
+      justify-content: space-between;
+      padding:1%;
+      padding-bottom:4%;
+      position: relative;
+      top:0px;
+      background-color: antiquewhite;
+  }
+  .head{
+    display:flex;
+    margin-left: 15%;
+    padding-right: 14px;
+    font-size: large;  
+    position: relative;
+}
