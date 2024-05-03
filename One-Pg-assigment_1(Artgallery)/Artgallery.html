@@ -1,0 +1,657 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artgallery (Using HTML/CSS/Bootstrap/AOS)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+  *{
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  h1,h2,h3,h4,h5,h6{
+    overflow-y: hidden;
+    font-family:serif;
+  }
+  h2{
+   color:#f0f5ff;
+  }
+  h3{
+    color:#FF9551;
+  }
+</style>
+<body>
+
+   
+
+<nav class="container-fluid sticky-top">
+    <div class="row  bg-white " style="--bs-bg-opacity:.5;">
+        <div class="col-3">
+            <div class="navbar justify-content-start">
+                <h1 style="font-style: oblique">LS</h1>
+            </div>
+        </div>
+        <div class="col-9">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active icon-link icon-link-hover text-secondary-emphasis" aria-current="page" href="#AboutUs">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link icon-link icon-link-hover text-secondary-emphasis text-uppercase" href="#Courses">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link icon-link icon-link-hover border border-primary text-secondary-emphasis" href="#Enquiry">ENQUIRY</a>
+                </li>
+        
+              </ul>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid ">
+    <div class="card  h-75">
+      <img src="https://img.freepik.com/free-photo/abstract-futuristic-background-with-3d-design_1361-3532.jpg?w=1380&t=st=1697435338~exp=1697435938~hmac=b2382bf184b4e158f79d293190dff61c46639a2a9eecf42686f286130faf23ad" class="card-img w-100 h-100 " alt="...">
+      <div class="card-img-overlay text-black position-absolute start-50 mt-5 pt-4 ">
+      <h1 class="display-1 fw-bold text-white " style="font-family:cursive;">Art_Gallery</h1>
+      </div>
+    </div>
+</div>
+<br>
+
+<div class="container-fluid">
+    <div class="container text-center">
+        <h3 class="text-uppercase "><em>latest Art Entry</em></h3>
+        <hr class="w-25 h-auto bg-black color-black d-inline-block">
+    <div class="row  h-auto">
+        <div class="col-4  h-auto">
+            <div class="card shadow p-3 bg-body-tertiary rounded h-100" style="width: 18rem;">
+                <img src="https://www.iep.utm.edu/wp-content/media/art-and-interpretation.jpg" class="card-img-top w-100" alt=".wjds.">
+                <div class="card-body">
+                  <a href="" class="text-black">sdksn</a>
+                  <p class="card-text">They never looked nice. She looked like art, and art wasn't supposed to look nice; it was supposed to make you feel something.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4  h-auto">
+            <div class="card shadow p-3  bg-body-tertiary rounded  h-100" style="width: 18rem;">
+                <img src="https://i.pinimg.com/originals/bb/78/2a/bb782a5921e421a7ad49ebf0e6abd898.jpg" class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                  <a href="" class="text-black">sdksn</a>
+                  <p class="card-text">A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-4  h-auto">
+            <div class="card shadow p-3 bg-body-tertiary rounded  h-100" style="width: 18rem;">
+                <img src="https://cdn.wallpapersafari.com/5/67/7YJpaL.jpg" class="card-img-top w-100" alt="...">
+                <div class="card-body">
+                  <a href="" class="text-black">sdksn</a>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+<hr>
+ 
+<div class="container-fuild">
+  <div class="row">
+    <div class="col-6">
+   <i class="fa-sharp fa-solid fa-line-columns fa-sm" style="color: #5d646f;"></i>
+   <i class="fa-solid fa-line-columns" style="color: #f0f5ff;"></i>
+    </div>
+    <div class="col-6">
+      
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid " style="background-color:#176B87;" >
+  <div class="container text-center text-white">
+   <h5>Review's</h5>
+    <h2>What Are They Saying About Us</h2>
+  </div>
+
+<div class="container h-75 m-5 p-5">
+  <div id="Carousel-review " class="carousel slide  carousel-dark ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#Carousel-review" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#Carousel-review" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#Carousel-review" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#Carousel-review" data-bs-slide-to="3" aria-label="Slide 4"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+<div class="row text-white">
+ <div class="col-9 align-middle width-50">
+<div class="border-start border-danger border-3  ">
+  <blockquote class="">
+    <i class="fa-solid fa-quote-left" style="font-size:30px;"></i> <i>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+      distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </i>
+       <i class="fa-solid fa-quote-right" style="font-size:30px;"></i>
+  </blockquote>
+  <div>
+  <h4>Saul goodman</h4>
+  <p>CEO & Founder</p>
+  <p>⭐⭐⭐⭐</p>
+</div>
+</div>
+ </div>
+ <div class="col-3">
+  <img src="https://thumbs.dreamstime.com/b/unemotional-minority-person-attractive-asian-152226429.jpg" class="w-100 rounded-circle" alt="">
+ </div>
+</div>        
+      </div>
+
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="row h-100 text-white">
+          <div class="col-9 align-middle width-50">
+         <div class="border-start border-danger border-3 ">
+           <blockquote>
+             <i class="fa-solid fa-quote-left" style="font-size:30px;"></i> <i>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+               distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </i>
+                <i class="fa-solid fa-quote-right" style="font-size:30px;"></i>
+           </blockquote>
+        
+           <div>
+           <h4>Saul goodman</h4>
+           <p>CEO & Founder</p>
+           <p>⭐⭐⭐⭐</p>
+         </div>
+         </div>
+          </div>
+          <div class="col-3 mt-5">
+           <img src="https://cliparting.com/wp-content/uploads/2016/10/Person-people-icon-clipart-kid.png" class="w-100 rounded-circle" alt="">
+          </div>
+         </div>
+      </div> 
+
+      <div class="carousel-item"data-bs-interval="3000">
+        <div class="row text-white">
+          <div class="col-9 align-middle width-50">
+         <div class="border-start border-danger border-3">
+           <blockquote >
+             <i class="fa-solid fa-quote-left" style="font-size:30px;"></i> <i>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+               distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </i>
+                <i class="fa-solid fa-quote-right" style="font-size:30px;"></i>
+           </blockquote>
+           <div >
+           <h4>Saul goodman</h4>
+           <p>CEO & Founder</p>
+           <p>⭐⭐⭐⭐</p>
+         </div>
+         </div>
+          </div>
+          <div class="col-3 ">
+           <img src="https://orangecountymobileautorepair.com/wp-content/uploads/2017/03/img_person.png" class="w-100 rounded-circle" alt="">
+          </div>
+         </div>        
+      </div>
+
+      <div class="carousel-item" data-bs-interval="4000">
+        <div class="row text-white">
+          <div class="col-9 align-middle width-50">
+         <div class="border-start border-danger border-3 pr-2">
+           <blockquote class="p-2">
+             <i class="fa-solid fa-quote-left" style="font-size:30px;"></i> <i>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
+               distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </i>
+                <i class="fa-solid fa-quote-right" style="font-size:30px;"></i>
+           </blockquote>
+           <div >
+           <h4>Saul goodman</h4>
+           <p>CEO & Founder</p>
+           <p>⭐⭐⭐</p>
+         </div>
+         </div>
+          </div>
+          <div class="col-3 ">
+           <img src="https://www.cybertalk.org/wp-content/uploads/2020/02/iStock-1132281800.jpg" class="w-100 rounded-circle" alt="">
+          </div>
+         </div>        
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-review" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#Carousel-review" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+ 
+  </div>
+</div>
+<hr>
+<div class="container-fluid">
+  <h2 class="text-center text-info-emphasis" id="AboutUs">About Us</h2>
+  <div class="row">
+    <div class="col-6 ">
+<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
+  It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+</p>
+    </div>
+    <div class="col-6">
+<p>It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+  Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) 
+</p>
+    </div>
+  </div>
+</div>
+<hr>
+
+<div class="container-fluid text-center"id="Courses">
+  <h2 class="text-info-emphasis">Design</h2>
+  <h2></h2>
+  <div class="container  ">
+      <div id="Carousel-items" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Carousel-items" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Carousel-items" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active ">
+            <div class="row gx-0 ">
+              <div class="col-4 ">
+                  <a href="Hiking.html">
+                    <div class="card  ">
+                      <img src="https://www.thestatesman.com/wp-content/uploads/2020/02/QT-O4-9.jpg" class="card-img  " style="height:250" alt="...">
+                      <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                        <h5 class="card-title">Wedding Photography</h5>
+                        <p class="card-text">Design yourown digital wedding invitation</p>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="col-4">
+                <div class="card ">
+                    <img src="https://www.shopstrange.net/wp-content/uploads/2021/02/T-shit-printing.jpg" class="card-img" style="height:250" alt="...">
+                    <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                      <h5 class="card-title">Cloth Design</h5>
+                      <p class="card-text">Design and print high-quality t-shirts</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card  ">
+                  <img src="https://graphicsfamily.com/wp-content/uploads/edd/2021/06/Free-3D-Visiting-Card-Design-Download-1180x787.jpg" class="card-img  " style="height:250" alt="...">
+                  <div class="card-img-overlay top-50 text-white bg-dark text-dark bg-opacity-50 pt-4">
+                    <h5 class="card-title">Cards making</h5>
+                    <p class="card-text">Types of cards making and more</p>
+                  </div>
+                </div>
+          </div>
+            </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-4">
+                      <div class="card ">
+                          <img src="https://static.vecteezy.com/system/resources/previews/000/267/266/original/vector-landing-page-website-template-with-abstract-low-poly-design.jpg" class="card-img  "style="height: 250;" alt="...">
+                          <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                            <h5 class="card-title">Basic Website Design</h5>
+                            <p class="card-text">Basic knowledge of Website making and making Example.</p>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card ">
+                        <img src="https://d295c5dn8dhwru.cloudfront.net/wp-content/uploads/2019/03/15115850/Flowchart.png" class="card-img " style="height: 250;" alt="...">
+                        <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4 ">
+                          <h5 class="card-title">Designing an Effective Flowchart </h5>
+                          <p class="card-text">Office Flowchart making</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                  <div class="card ">
+                      <img src="https://images5.alphacoders.com/573/573414.jpg" class="card-img " style="height: 250;" alt="...">
+                      <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                        <h5 class="card-title">Impact of Art</h5>
+                        <p class="card-text">Basic knowledge of art, colors, etc</p>
+                      </div>
+                    </div>
+              </div>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-items" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Carousel-items" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+</div>
+
+<hr class="container">
+
+<div class="container-fluid text-center">
+  <h2 class="text-danger-emphasis">Designing a successful brand</h2>
+  <div class="container  ">
+      <div id="Carousel-brand" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Carousel-brand" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Carousel-brand" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active ">
+            <div class="row gx-0 ">
+              <div class="col-4 ">
+                  <div class="card  ">
+                      <img src="https://kmpublishing.com.au/wp-content/uploads/2021/03/Branding-Marketing-Strategy.png" class="card-img  " style="height: 250;" alt="...">
+                      <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                        <h5 class="card-title">branding with personality</h5>
+                        <p class="card-text">why weird works: copywrite on branding with personality.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-4">
+                <div class="card ">
+                    <img src="https://smallbizclub.com/wp-content/uploads/2016/04/Quick-Tips-to-Increase-Team-Performance.jpg" class="card-img"style="height: 250;" alt="...">
+                    <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                      <h5 class="card-title">team Collaboration</h5>
+                      <p class="card-text">how to invite your team and collaborate.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card  ">
+                  <img src="http://www.pammarketingnut.com/wp-content/uploads/Fotolia_54104254_Subscription_Monthly_M.jpg" class="card-img  " style="height: 250;"alt="...">
+                  <div class="card-img-overlay top-50 text-white bg-dark text-dark bg-opacity-50 pt-4">
+                    <h5 class="card-title">Brand Strategy</h5>
+                    <p class="card-text">The ultimate guide to building a successful brand strategy</p>
+                  </div>
+                </div>
+          </div>
+            </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-4">
+                      <div class="card ">
+                          <img src="https://static.vecteezy.com/system/resources/previews/000/267/266/original/vector-landing-page-website-template-with-abstract-low-poly-design.jpg" class="card-img  "style="height: 250;" alt="...">
+                          <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                            <h5 class="card-title">Basic Website Design</h5>
+                            <p class="card-text">Basic knowledge of Website making and making Example.</p>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card ">
+                        <img src="https://d295c5dn8dhwru.cloudfront.net/wp-content/uploads/2019/03/15115850/Flowchart.png" class="card-img " style="height: 250;" alt="...">
+                        <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4 ">
+                          <h5 class="card-title">Designing an Effective Flowchart </h5>
+                          <p class="card-text">Office Flowchart making</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                  <div class="card ">
+                      <img src="https://images5.alphacoders.com/573/573414.jpg" class="card-img " style="height: 250;" alt="...">
+                      <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                        <h5 class="card-title">Impact of Art</h5>
+                        <p class="card-text">Basic knowledge of art, colors, etc</p>
+                      </div>
+                    </div>
+              </div>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-brand" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Carousel-brand" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+</div>
+<hr class="container">
+<div class="container-fluid text-center">
+  <h2 class="text-primary-emphasis">Working with fonts</h2>
+
+  <div class="container  ">
+      <div id="Carousel-work" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#Carousel-work" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#Carousel-work" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner ">
+            <div class="carousel-item active ">
+            <div class="row gx-0 ">
+              <div class="col-4 ">
+                  <div class="card  ">
+                      <img src="https://1.bp.blogspot.com/-auLu92f3qnE/TdoAwJ4oQnI/AAAAAAAAY0k/inlmAiCJR6w/s1200/ET-Poster-1.jpg" class="card-img  " style="height: 500;"alt="...">
+                      <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                        <h5 class="card-title mt-5">Poster Design</h5>
+                        <p class="card-text">Types of typography tips for poster design.</p>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-4">
+                <div class="card ">
+                    <img src="http://blog.kooldesignmaker.com/wp-content/uploads/2016/03/10-Best-Handwriting-Fonts-for-Graphic-Designers-Swissblnk-Monthoers.jpg" class="card-img" style="height: 500;"alt="...">
+                    <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                      <h5 class="card-title mt-5">Font Psychology</h5>
+                      <p class="card-text">Definition of font psychology & how to use it.</p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4 ">
+              <div class="card  ">
+                  <img src="https://3.bp.blogspot.com/-nkwJHtGhOhQ/VeRkiUgwUtI/AAAAAAAAGO4/xytrqt1AKoU/s1600/free-fonts-blogger%2Bcopy.jpg" class="card-img  " style="height: 500;" alt="...">
+                  <div class="card-img-overlay top-50 text-white bg-dark text-dark bg-opacity-50 pt-4">
+                    <h5 class="card-title mt-5">Buld your Brand</h5>
+                    <p class="card-text">choose the right fonts</p>
+                  </div>
+                </div>
+          </div>
+            </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="row">
+                  <div class="col-4">
+                      <div class="card ">
+                          <img src="https://static.vecteezy.com/system/resources/previews/000/267/266/original/vector-landing-page-website-template-with-abstract-low-poly-design.jpg" class="card-img  "style="height: 500;" alt="...">
+                          <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                            <h5 class="card-title">Terrfic Titles</h5>
+                            <p class="card-text">easy tips for terrific titles.</p>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="card ">
+                        <img src="https://d295c5dn8dhwru.cloudfront.net/wp-content/uploads/2019/03/15115850/Flowchart.png" class="card-img " style="height: 500;" alt="...">
+                        <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4 ">
+                          <h5 class="card-title">Futuristic fonts  </h5>
+                          <p class="card-text">Unique alternative looks for page design / posters / etc.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-4">
+                  <div class="card ">
+                      <img src="https://images5.alphacoders.com/573/573414.jpg" class="card-img " style="height: 500;" alt="...">
+                      <div class="card-img-overlay top-50 text-white bg-dark bg-opacity-50 pt-4">
+                        <h5 class="card-title">Impact of Art</h5>
+                        <p class="card-text">Basic knowledge of art, colors, etc</p>
+                      </div>
+                    </div>
+              </div>
+                </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#Carousel-work" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#Carousel-work" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+</div>
+
+
+<hr>
+
+<div class="container">
+  <div class="col-">
+    <p>Our valued service</p>
+    <h3>What We Offer</h3>
+  </div>
+  <div class="row gy-1">
+    <div class="col-sm-4">
+      <i class="fa-solid fa-gear pb-1" style="font-size: 55px; color:#256D85;"></i>
+      <p>Unlimated Features</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-solid fa-pen-nib pb-1" style="font-size: 55px; color:#FF9551;"></i>
+      <p>Unlimated Features</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-regular fa-file-lines pb-1" style="font-size: 55px; color:#256D85;"></i>
+      <p>Unlimated Features</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-regular fa-lightbulb pb-1" style="font-size: 55px; color:#FF9551;"></i>
+      <p>Unlimated Features</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-solid fa-earth-americas pb-1" style="font-size: 55px; color:#256D85;"></i>
+      <p>Unlimated Features</p>
+    </div>
+    <div class="col-sm-4">
+      <i class="fa-solid fa-tachograph-digital pb-1" style="font-size: 55px; color: #FF9551;"></i>
+      <p>Unlimated Features</p>
+    </div>
+  </div>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">For More </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Understood</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<hr>
+
+
+
+<div class="container-fluid p-2 rounded" style="background-color: #64CCC5;" id="Enquiry">
+  <h2 class="text-center">For Enquiry</h2>
+  <form action="" class="container mt-3">
+    <div class="row">
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+      </div>
+      <div class="col-3">
+        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+      </div>
+      <div class="col-3">
+        <input type="email" class="form-control" placeholder="Email@.com" aria-label="Email">
+      </div>
+      <div class="col-3">
+        <input type="number" class="form-control" placeholder="calling number" aria-label="First name" required>
+      </div>
+      </div>
+      <br>
+    <div class="row">
+        <div class="col">
+          <textarea class="form-control" name="message" rows="5" cols="100" placeholder="Message" required></textarea>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-">
+        <button class="btn btn-outline-primary text-white">Send Enquiry</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<br>
+
+<footer class="container-fluid  text-white " style="background-color: #053B50;">
+  <div class="container ">
+    <div>
+      <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+    </div>
+  <div class="row w-50 text-center">
+    <div class="col-3">
+      <i class="fa-brands fa-facebook" style=" font-size: 30px;"></i>
+    </div>
+    <div class="col-3">
+      <i class="fa-brands fa-youtube" style="font-size: 30px;"></i>
+    </div>
+    <div class="col-3">
+      <i class="fa-brands fa-twitter" style="font-size: 30px;"></i>
+    </div>
+    <div class="col-3">
+      <i class="fa-brands fa-google-plus-g" style="font-size: 30px;"></i>
+    </div>
+  </div>
+</div>
+<div class="container mt-3 w-75">
+  <div class="row text-start">
+    <div class="col-4">
+      <ul style="list-style-type: none;">
+        <li><h5>Material</h5></li>
+        <li>Domains</li>
+        <li>Hosting</li>
+        <li>Server</li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <ul style="list-style-type: none;">
+        <li><h5>Material</h5></li>
+        <li>Domains</li>
+        <li>Hosting</li>
+        <li>Server</li>
+      </ul>
+    </div>
+    <div class="col-4">
+      <ul style="list-style-type: none;">
+        <li><h5>Contact</h5></li>
+        <li>Artgalleryedu@gmail.com</li>
+        <li>450-485545178</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<hr class="container">
+<div class="row">
+  <div class="col-">
+    <p class="fs-6 fst-italic">2002-2023 dchost. Terms of Service Privacy. @Artescape_Artist | Designed By AnushkaVerma</p>
+  </div>
+</div>
+</footer>
+
+
+</body>
+</html>
